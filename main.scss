@@ -1,5 +1,8 @@
 $backgroundcolor: #F4F4F4;
 $gutter-size: 90px;
+$banner-color: #B4B4B4;
+$link-color: #1782e0;
+
 
 @import "header";
 @import "nav";
@@ -12,5 +15,4 @@ $gutter-size: 90px;
 html {
   /*font-family: 'Roboto', sans-serif;*/
   font-family: 'Lato', sans-serif;
-  background-color: $backgroundcolor;
 }
