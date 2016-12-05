@@ -1,0 +1,181 @@
+/*header styling*/
+.header {
+  background-color: #FA6938;
+  color: white;
+  width: 100%;
+  font-size: 11px;
+  padding-left: 90px; }
+  .header header {
+    display: flex; }
+    .header header .header_div {
+      display: inline-flex; }
+      .header header .header_div .shadow {
+        background-color: #C7532C;
+        padding: 6px;
+        margin-left: 0; }
+  .header h4 {
+    margin: 4px 20px;
+    padding: 6px; }
+
+/*nav styling*/
+.nav {
+  display: flex;
+  padding-left: 90px;
+  width: 100%;
+  border-bottom: 1px dashed grey; }
+  .nav .nav_div {
+    width: 20%;
+    display: flex; }
+  .nav .nav_links {
+    display: inline-flex;
+    width: 60%;
+    padding: 6% 3% 0 3%;
+    font-size: 1.2em; }
+    .nav .nav_links h2 {
+      padding: 10px;
+      font-size: 1em;
+      font-weight: lighter; }
+  .nav .hang_right {
+    display: flex;
+    width: 40%;
+    margin-left: 50px;
+    /*Shopping cart and search styling*/ }
+    .nav .hang_right .account a {
+      text-decoration: none;
+      color: grey;
+      font-size: 16px; }
+    .nav .hang_right .cart, .nav .hang_right .search {
+      width: 40%; }
+      .nav .hang_right .cart input, .nav .hang_right .search input {
+        padding: 10%; }
+      .nav .hang_right .cart .search input, .nav .hang_right .search .search input {
+        box-shadow: #f4f4f4 0 0 0 4px; }
+
+/*
+.cart_icon {
+  background: url("/images/sprite@2x.png") no-repeat -30px -30px;
+  width: 26px;
+	height: 26px;
+}*/
+/*how to change color of placeholder?*/
+/*color: black;*/
+/*banner styling*/
+.banner {
+  background-color: #F4F4F4; }
+  .banner .banner_area {
+    display: flex;
+    text-align: center;
+    margin-bottom: 90px;
+    align-items: center;
+    padding: 0 90px 50px 90px; }
+    .banner .banner_area li {
+      list-style: none; }
+  .banner h1 {
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    font-size: 3em;
+    font-weight: lighter; }
+
+/*main styling*/
+.main {
+  padding: 0 90px 0 90px; }
+  .main .three {
+    display: flex;
+    list-style: none;
+    margin: 20px;
+    width: 100%; }
+    .main .three img {
+      margin: 20px;
+      width: 100%; }
+  .main .tagline {
+    text-align: center;
+    display: block;
+    margin-bottom: 75px;
+    font-size: 2.2em;
+    font-style: italic;
+    font-weight: lighter; }
+    .main .tagline a {
+      color: #1782ee;
+      font-style: normal;
+      text-decoration: none;
+      text-transform: capitalize;
+      font-size: 16px;
+      letter-spacing: 3px; }
+
+/*call to action area above footer*/
+.action {
+  display: flex;
+  list-style: none;
+  border-top: 1px dashed grey;
+  padding: 0 90px 0 90px; }
+  .action p {
+    display: inline-flex;
+    margin: 0 auto; }
+  .action img {
+    width: 100%; }
+  .action div {
+    width: 25%; }
+
+.part {
+  margin: 0 auto;
+  padding: 15px; }
+  .part p {
+    padding-bottom: 20px; }
+    .part p .title {
+      font-weight: 900; }
+  .part #type_email {
+    width: 65%;
+    padding: 8px;
+    border: 1px solid #d8d8d8;
+    box-shadow: #f4f4f4 0 0 0 4px; }
+  .part .sub_btn {
+    color: white;
+    background-color: #1782e0;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: .8em;
+    margin: 15px auto;
+    float: inherit;
+    border: none; }
+
+/*footer styling*/
+.footer_div {
+  width: 100%; }
+  .footer_div .footer {
+    background-color: #F4F4F4;
+    font-size: 1em;
+    border-top: 1px grey dashed; }
+    .footer_div .footer ul {
+      color: #3A3A3A;
+      display: inline-block;
+      padding-left: 0; }
+    .footer_div .footer li {
+      color: #B4B4B4;
+      list-style: none; }
+    .footer_div .footer .section {
+      display: inline-block;
+      margin-left: 40px;
+      margin-bottom: 20px; }
+    .footer_div .footer footer {
+      display: flex;
+      font-size: .7em;
+      padding-left: 90px; }
+  .footer_div .rights_section {
+    display: flex;
+    align-content: flex-end;
+    background-color: #F4F4F4; }
+  .footer_div .rights {
+    width: 100%;
+    font-size: .5em;
+    color: #B4B4B4;
+    padding-left: 90px; }
+
+html {
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Lato', sans-serif;
+  background-color: #F4F4F4; }
+
+/*# sourceMappingURL=style.css.map */

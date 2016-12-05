@@ -1,0 +1,16 @@
+$backgroundcolor: #F4F4F4;
+$gutter-size: 90px;
+
+@import "header";
+@import "nav";
+@import "banner";
+@import "content";
+@import "topfooter";
+@import "footer";
+
+
+html {
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Lato', sans-serif;
+  background-color: $backgroundcolor;
+}

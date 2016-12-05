@@ -1,0 +1,27 @@
+/*header styling*/
+
+.header {
+  background-color: #FA6938;
+  color: white;
+  width: 100%;
+  font-size: 11px;
+  padding-left: 90px;
+    header {
+        display: flex;
+
+        .header_div {
+        display: inline-flex;
+        
+        .shadow {
+        background-color: #C7532C;
+        padding: 6px;
+        margin-left: 0;
+
+        }
+        }
+    }
+    h4 {
+        margin: 4px 20px;
+        padding: 6px;
+    }
+}

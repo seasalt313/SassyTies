@@ -1,0 +1,35 @@
+
+
+/*main styling*/
+
+.main,  {
+  padding: 0 90px 0 90px;
+  .three {
+  display: flex;
+  list-style: none;
+  margin: 20px;
+  width: 100%;
+    img {
+    margin: 20px;
+    width: 100%;
+    }
+  } 
+  .tagline {
+  text-align: center;
+  display: block;
+  margin-bottom: 75px;
+  font-size: 2.2em;
+  font-style: italic;
+  font-weight: lighter;
+    a {
+    color: #1782ee;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    letter-spacing: 3px;
+    }
+  }  
+}
+
+

@@ -1,0 +1,51 @@
+/*call to action area above footer*/
+
+.action {
+  display: flex;
+  list-style: none;
+  border-top: 1px dashed grey; 
+  padding: 0 $gutter-size 0 $gutter-size;
+
+    p {
+    display: inline-flex;
+    margin: 0 auto;
+    } 
+    img {
+    width: 100%;
+    }
+    div {
+    width: 25%;
+    }
+}
+
+
+
+.part {
+  margin: 0 auto;
+  padding: 15px;
+    p {
+    padding-bottom: 20px;
+        .title {
+        font-weight: 900;
+        }
+    }
+    #type_email {
+    width: 65%;
+    padding: 8px;
+    border: 1px solid #d8d8d8;
+    box-shadow: #f4f4f4 0 0 0 4px;
+    }
+    .sub_btn {
+    color: white;
+    background-color: #1782e0;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: .8em;
+    margin: 15px auto;
+    float: inherit;
+    border: none;
+    }
+}
+
+
+

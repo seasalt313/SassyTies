@@ -1,0 +1,65 @@
+/*nav styling*/
+
+.nav {
+  display: flex;
+  padding-left: $gutter-size;
+  width: 100%;
+  border-bottom: 1px dashed grey;
+    .nav_div {
+    width: 20%;
+    display: flex;
+    }
+    .nav_links {
+    display: inline-flex;
+    width: 60%;
+    padding: 6% 3% 0 3%;
+    font-size: 1.2em;
+        h2 {
+        padding: 10px;
+        font-size: 1em;
+        font-weight: lighter;
+        }
+    }
+    .hang_right {
+    display: flex;
+    width: 40%;
+    margin-left: 50px;
+    /*Shopping cart and search styling*/
+        .account a{
+        text-decoration: none;
+        color: grey;
+        font-size: 16px;
+        }  
+        .cart, .search {
+        width: 40%;
+            input {
+            padding: 10%;
+            }
+            .search input{
+            box-shadow: #f4f4f4 0 0 0 4px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+/*
+.cart_icon {
+  background: url("/images/sprite@2x.png") no-repeat -30px -30px;
+  width: 26px;
+	height: 26px;
+}*/
+
+
+
+/*how to change color of placeholder?*/
+// .cart, .search {
+//   width: 40%;
+// } input {
+//   padding: 10px;
+  /*color: black;*/
